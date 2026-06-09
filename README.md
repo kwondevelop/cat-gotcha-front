@@ -1,5 +1,7 @@
-# Vue 3 + Vite
+GET /api/memes/random : 랜덤으로 고양이 짤 1개를 가져오기 (메인 뽑기 기능)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+GET /api/memes : 전체 짤 목록 가져오기 (갤러리 형태)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+POST /api/memes : 새로운 고양이 짤과 정보 업로드 (이미지 파일 포함)
+
+DELETE /api/memes/{id} : 내가 올린 짤 삭제하기
