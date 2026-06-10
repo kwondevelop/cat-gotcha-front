@@ -26,7 +26,7 @@ const fetchRandomMeme = async () => {
 
 <template>
     <div class="home">
-        <h1>🐱 랜덤 고양이 짤 자판기 🐾</h1>
+        <h1>오늘의 명언 자판기다냥 </h1>
     
         <div v-if="currentMeme" class="meme-card">
         <img :src="currentMeme.imageUrl" alt="고양이 짤" class="cat-image" />
@@ -35,11 +35,11 @@ const fetchRandomMeme = async () => {
     </div>
     
     <div v-else class="empty-state">
-        <p>버튼을 눌러서 귀여운 고양이를 뽑아보세요!</p>
+        <p>버튼을 눌러서 귀여운 고양이와 오늘의 명언을 확인해보세요!</p>
     </div>
 
     <button @click="fetchRandomMeme" class="gacha-btn">
-        🎁 랜덤 짤 뽑기!
+        뽑기
     </button>
 </div>
 </template>
