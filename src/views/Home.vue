@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 
+
 // 화면에 보여줄 짤 데이터를 담을 변수 (반응형 데이터)
 const currentMeme = ref(null);
 
